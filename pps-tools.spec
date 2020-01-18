@@ -1,6 +1,6 @@
 Name:		pps-tools
 Version:	0
-Release:	0.7.20120407git0deb9c%{?dist}
+Release:	0.9.20120407git0deb9c%{?dist}
 Summary:	LinuxPPS user-space tools
 
 Group:		System Environment/Base
@@ -42,6 +42,12 @@ install -p -m644 -t $RPM_BUILD_ROOT%{_includedir}/sys timepps.h
 %{_includedir}/sys/timepps.h
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0-0.9.20120407git0deb9c
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0-0.8.20120407git0deb9c
+- Mass rebuild 2013-12-27
+
 * Tue Apr 02 2013 Miroslav Lichvar <mlichvar@redhat.com> 0-0.7.20120407git0deb9c
 - update to 20120407git0deb9c
 - move timepps.h to sys (#852950)
